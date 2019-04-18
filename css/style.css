@@ -111,6 +111,11 @@ a{
     padding-bottom: 15px;
 }
 
+.nav-bar .logo1
+{
+    
+}
+
 
 .nav-bar .logo1 i
 {
@@ -337,11 +342,15 @@ a{
 
 @media screen and (max-width: 1920px) 
 {
-
+    .openbtn
+    {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 1366)
 {
+   
 
 } 
 
@@ -349,6 +358,11 @@ a{
 {
 
     .nav-bar .nav
+    {
+        display: none;
+    }
+
+    .openbtn
     {
         display: none;
     }
@@ -361,8 +375,6 @@ a{
     {
         display: block;
     }
-
-    
 
     .logo1
     {
@@ -383,6 +395,23 @@ a{
         display: block;
         margin: auto;
     }
+
+    .nav-bar .logo1 i
+    {
+        font-size: 35px;
+    }
+
+    .nav-bar .logo1 a 
+    {
+        font-size: 30px;
+    }
+    .openbtn
+    {
+        display: block;
+    }
+
+  
+
 } 
 
 @media screen and (max-width: 425px)
