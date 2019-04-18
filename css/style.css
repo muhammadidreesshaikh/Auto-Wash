@@ -104,7 +104,142 @@ a{
     transition: 0.5s;
 }
 
+.nav-bar
+{
+    background-color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
 
+
+.nav-bar .logo1 i
+{
+    font-size: 30px;
+    color: orange;
+}
+
+
+.nav-bar .logo1 a
+{
+    text-decoration: none;
+    font-size: 27px;
+    color: black;
+    font-weight: 700;
+    padding-left: 5px
+}
+
+.nav-bar .nav
+{
+    margin-top: 9px;
+}
+
+.nav-bar .nav ul
+{
+    display: flex;
+    list-style: none;
+    padding-top: 10px;
+
+}
+
+.nav-bar .nav li a
+{
+    color: black;
+    padding-left: 15px;
+    padding-right: 9px;
+    margin-left: 9px;
+    text-decoration: none;
+}
+
+.nav-bar .nav i
+{
+    font-size: 11px;
+    color: #ada7a7;
+    padding-left: 2px;
+}
+
+.nav-bar .nav .icon1
+{
+    padding-left: 10px;
+    padding-top: 4px;
+}
+
+.nav-bar .nav .icon1 i
+{
+    color: white;
+    background-color: black;
+    border: 1px solid;
+    border-radius: 1px;
+    padding: 8px 8px 8px 8px;
+    font-size: 16px;
+}
+
+.nav-bar .nav .icon1 i:hover
+{
+    background-color: orange;
+    opacity: 0.5s;
+    transition: 0.5s;
+}
+
+/* sidemenu */
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    text-align: center;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  .mobile-nav
+  {
+    display: none;
+  }
+
+  .openbtn, .closebtn
+  {
+    cursor: pointer;
+    font-size: 35px;
+  }
+
+  .openbtn
+  {
+    color: #000;
+    position: absolute;
+    top: 0;
+    left: 20px;
+  }
 
 
 
