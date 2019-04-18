@@ -1,0 +1,271 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body
+{
+    font-family: 'Roboto', sans-serif !important;
+    overflow-x: hidden;
+    margin-bottom: 0 auto;
+    background: #f2f2f2;
+    font-family: 'Open Sans', sans-serif;
+    font-family: "Lato", sans-serif;
+}
+
+p, h1 ,h2 ,h3, h4, h5, h6 {
+    margin: 0 !important;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+.top-bar
+{
+    background-color: #140567;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.top-bar .top1
+{
+    /* display: flex; */
+}
+
+.top-bar .top1 a{
+    color: #fff;
+    padding: 0 10px;
+}
+
+.top-bar .top1 i 
+{
+    padding: 0 5px 0 0;
+    font-size: 23px;
+    color: yellow;
+}
+
+.top-bar .top1 i:hover
+{
+    color: orange;
+    opacity: 0.5s;
+    transition: 0.5s;
+}
+
+.top-bar .top1 p
+{
+    padding-right: 25px;
+    margin-bottom: 0;
+    color: white;
+    font-size: 16px;
+}
+
+.top-bar .search
+{
+    width: 100%;
+    position: relative
+}
+
+
+.top-bar .searchterm
+{
+    float: left;
+    width: 100%;
+    border: 0px solid #0a0a0a;
+    padding: 10px;
+    height: 30px;
+    border-radius: 2px 0 0 2px;
+    outline: none;
+    color: #6b6b6b;
+}
+
+
+.top-bar .search .button1
+{
+    position: absolute;
+    right: 0;
+    width: 40px;
+    height: 30px;
+    border: 0px solid #00B4CC;
+    background: #00B4CC;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.top-bar .search .button1 i
+{
+    font-size: 20px;   
+}
+
+
+.top-bar .search .button1:hover
+{
+    background-color: orange;
+    opacity: 0.5s;
+    transition: 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1920px) 
+{
+
+}
+
+@media screen and (max-width: 1366)
+{
+
+} 
+
+@media screen and (max-width: 768px)
+{
+
+    .nav-bar .nav
+    {
+        display: none;
+    }
+
+} 
+
+@media screen and (max-width: 600px)
+{
+    .mobile-nav
+    {
+        display: block;
+    }
+
+    
+
+    .logo1
+    {
+        text-align: center;
+    }
+
+    .top-bar
+    {
+        text-align: center;
+        width: 100%;
+        padding-bottom: 15px;
+    }
+    
+    .top-bar .search
+    {
+        width: 90%;
+        padding-top: 20px;
+        display: block;
+        margin: auto;
+    }
+} 
+
+@media screen and (max-width: 425px)
+{
+
+} 
+
+@media screen and (max-width: 375px) 
+{
+    
+
+}
+
+
+
+
+
+
+
+
+
