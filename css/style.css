@@ -189,7 +189,8 @@ a{
 
 /* sidenav */
 
-.sidenav {
+.sidenav 
+{
     height: 100%;
     width: 0;
     position: fixed;
@@ -202,7 +203,8 @@ a{
     padding-top: 60px;
   }
   
-  .sidenav a {
+.sidenav a 
+{
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
@@ -210,44 +212,114 @@ a{
     display: block;
     transition: 0.3s;
     text-align: center;
-  }
+}
   
-  .sidenav a:hover {
+.sidenav a:hover 
+{
     color: #f1f1f1;
-  }
+}
   
-  .sidenav .closebtn {
+.sidenav .closebtn 
+{
     position: absolute;
     top: 0;
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
-  }
+}
   
   @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
   }
 
-  .mobile-nav
-  {
+.mobile-nav
+{
     display: none;
-  }
+}
 
-  .openbtn, .closebtn
-  {
+.openbtn, .closebtn
+{
     cursor: pointer;
     font-size: 35px;
-  }
+}
 
-  .openbtn
-  {
+.openbtn
+{
     color: #000;
     position: absolute;
     top: 15px;
     right: 20px;
     z-index: 1;
-  }
+}
+
+.slider
+{
+    width: 100%;
+    height: 500px;
+}
+
+.slide .inner
+{
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: soft-light;
+    background-color: #1f1f1f;
+}
+
+.slider .heading
+{
+    padding-top: 150px;
+    padding-bottom: 80px;
+}
+
+.slider .heading h1
+ {
+    color: white;
+    font-size: 45px;
+    margin-bottom: 0;
+ }
+
+ .slider .heading h1 span
+ {
+    color: orange;
+ }
+
+ .slider .heading p
+ {
+    color: #bdbdbd;
+    margin-bottom: 0;
+    font-size: 18px;
+    padding-top: 30px;
+ }
+
+ .slider .heading .button3
+ {
+    margin-top: 60px;
+ }
+
+ .slider .heading .button3 a
+ {
+    color: white;
+    margin-left: 10px;
+    font-size: 20px;
+    border: 1px solid orange;
+    border-radius: 1px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+ }
+
+ .slider .heading .button3 a:hover
+ {
+    background-color: orange;
+    opacity: 0.5s;
+    transition: 0.5s;
+ }
+
+ 
 
 
 
