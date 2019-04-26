@@ -7,7 +7,6 @@ body
     margin-bottom: 0 auto;
     background: #f2f2f2;
     font-family: 'Open Sans', sans-serif;
-    font-family: "Lato", sans-serif;
 }
 
 p, h1 ,h2 ,h3, h4, h5, h6 {
@@ -104,16 +103,19 @@ a{
     transition: 0.5s;
 }
 
-.nav-bar
+/* .nav-bar
 {
     background-color: white;
     padding-top: 15px;
     padding-bottom: 15px;
+    width: 100%;
+    height: 90px;
+    position: relative;
 }
 
 .nav-bar .logo1
 {
-    
+    padding-top: 7px;
 }
 
 
@@ -183,11 +185,11 @@ a{
     background-color: orange;
     opacity: 0.5s;
     transition: 0.5s;
-}
+} */
 
 /* sidemenu */
 
-.sidenav {
+/* .sidenav {
     height: 100%;
     width: 0;
     position: fixed;
@@ -242,101 +244,234 @@ a{
   {
     color: #000;
     position: absolute;
-    top: 0;
-    left: 20px;
+    top: 15px;
+    right: 20px;
+    z-index: 1;
+  }
+
+  .slider
+  {
+    width: 100%;
+    height: 500px;
+  }
+
+ .slide .inner{
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: soft-light;
+    background-color: #1f1f1f;
+ }
+
+ .slider .heading
+ {
+    padding-top: 150px;
+    padding-bottom: 80px;
+ }
+
+ .slider .heading h1
+ {
+    color: white;
+    font-size: 45px;
+    margin-bottom: 0;
+ }
+
+ .slider .heading h1 span
+ {
+    color: orange;
+ }
+
+ .slider .heading p
+ {
+    color: #bdbdbd;
+    margin-bottom: 0;
+    font-size: 18px;
+    padding-top: 30px;
+ }
+
+ .slider .heading .button3
+ {
+    margin-top: 60px;
+ }
+
+ .slider .heading .button3 a
+ {
+    color: white;
+    margin-left: 10px;
+    font-size: 20px;
+    border: 1px solid orange;
+    border-radius: 1px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+ } */
+
+ /* .slider .heading .button3 a:active
+ {
+     background-color: orangered;
+ } */
+
+ /* .slider .heading .button3 a:hover
+ {
+    background-color: orange;
+    opacity: 0.5s;
+    transition: 0.5s;
+ }
+
+
+  .digital
+  {
+    padding-top: 80px;
+    padding-bottom: 90px;
+    background-color: white;
+  }
+
+  .digital h1
+  {
+    color: black;
+    margin-bottom: 0;
+    font-size: 45px;
+  }
+
+  .digital h5
+  {
+    color: gray;
+    font-size: 24px;
+    margin-bottom: 0;
+    padding-top: 5px;
+  }
+
+  .digital .button2
+  {
+    margin-top: 30px;
+    float: right;
+  }
+
+  .digital .button2 i
+  {
+    font-size: 30px;
+    background-color: orange;
+    color: white;
+    border: 1px solid;
+    border-radius: 1px;
+    padding: 8px 15px 8px 15px;
+    margin-left: 10px;
+  }
+
+  .digital .button2 i:hover
+  {
+      background-color: #000;
+      opacity: 0.5s;
+      transition: 0.5s;
+  }
+
+  .digital .deling
+  {
+    padding-top: 90px;
+  }
+
+  .digital .deling h6
+  {
+    font-size: 25px;
+  color: black;
+  margin-bottom: 0;
+  }
+
+  .digital .deling i
+  {
+    font-size: 35px;
+    color: orange;
+    padding-right: 10px;
+  }
+
+  .digital .deling p
+  {
+    color: gray;
+    font-size: 15px;
+    padding-top: 20px;
+    margin-bottom: 0;
+  }
+
+  .about
+  {
+    background-color: #032542;
+  }
+
+  .about .color1  
+  {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: soft-light;
+    background-color: #efefef;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .about .color1 .detail
+  {
+    padding-left: 90px;
+    padding-right: 90px;
+  }
+
+  .about .color1 .detail h1 
+  {
+    color: black;
+    font-size: 40px;
+    margin-bottom: 0;
+  }
+
+  .about .color1 .detail h1 span
+  {
+      color: orange;
+  }
+
+  .about .color1 .detail p
+  {
+    font-size: 17px;
+    margin-bottom: 0;
+    padding-top: 35px;
+    color: gray;
+  }
+
+  .about .project
+  {
+    margin-top: 50px;
+  }
+
+  .about .project h5
+  {
+    font-size: 30px;
+    margin-bottom: 0;
+    color: black;
+  }
+ 
+  .about .project h6
+  {
+    font-size: 20px;
+    margin-bottom: 0;
+    color: black;
+  }
+
+  .about .pic2
+  {
+    position: absolute;
+    top: 50%;
+    left: -30%;
+    transform: translate(0,-50%);
+  }
+
+  .about .pic2 img
+  {
+      width: 100%;
   }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.slick-slide:focus
+{
+    outline: none;
+} */
 
 
 
@@ -346,11 +481,20 @@ a{
     {
         display: none;
     }
+
+    /* .nav-bar .nav li a
+    {
+        margin-left: 15px;
+    } */
 }
 
 @media screen and (max-width: 1366)
 {
-   
+    .nav-bar .nav li a
+    {
+        padding-right: 9px;
+        margin-left: 7px;
+    }
 
 } 
 
@@ -364,17 +508,19 @@ a{
 
     .openbtn
     {
-        display: none;
+        display: block;
+    }
+    
+    .mobile-nav
+    {
+        display: block;
     }
 
 } 
 
 @media screen and (max-width: 600px)
 {
-    .mobile-nav
-    {
-        display: block;
-    }
+    
 
     .logo1
     {
@@ -408,6 +554,30 @@ a{
     .openbtn
     {
         display: block;
+    }
+
+    .slider .heading h1
+    {
+        font-size: 35px;
+        padding-left: 40px;
+        padding-right: 10px;
+    }
+
+    .slider .heading p 
+    {
+        padding-left: 15px;
+        padding-right: 10px;
+        font-size: 16px;
+    }
+
+    .slide .inner
+    {
+        height: 550px;
+    }
+
+    .slider .heading .button3 a
+    {
+        margin-left: 35px;
     }
 
   
