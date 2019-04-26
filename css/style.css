@@ -319,7 +319,82 @@ a{
     transition: 0.5s;
  }
 
- 
+ .digital
+  {
+    padding-top: 80px;
+    padding-bottom: 90px;
+    background-color: white;
+  }
+
+  .digital h1
+  {
+    color: black;
+    margin-bottom: 0;
+    font-size: 45px;
+  }
+
+  .digital h5
+  {
+    color: gray;
+    font-size: 24px;
+    margin-bottom: 0;
+    padding-top: 5px;
+  }
+
+  .digital .button2
+  {
+    margin-top: 30px;
+    float: right;
+  }
+
+  .digital .button2 i
+  {
+    font-size: 30px;
+    background-color: orange;
+    color: white;
+    border: 1px solid;
+    border-radius: 1px;
+    padding: 8px 15px 8px 15px;
+    margin-left: 10px;
+  }
+
+  .digital .button2 i:hover
+  {
+      background-color: #000;
+      opacity: 0.5s;
+      transition: 0.5s;
+  }
+
+  .digital .deling
+  {
+    padding-top: 90px;
+  }
+
+  .digital .deling h6
+  {
+    font-size: 25px;
+  color: black;
+  margin-bottom: 0;
+  }
+
+  .digital .deling i
+  {
+    font-size: 35px;
+    color: orange;
+    padding-right: 10px;
+  }
+
+  .digital .deling p
+  {
+    color: gray;
+    font-size: 15px;
+    padding-top: 20px;
+    margin-bottom: 0;
+  }
+
+  
+
+
 
 
 
