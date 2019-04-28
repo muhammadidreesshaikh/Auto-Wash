@@ -187,6 +187,45 @@ a{
     transition: 0.5s;
 }
 
+/* dropdown buttn */
+
+/* .dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .nav-bar .nav .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .nav-bar .nav .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .nav-bar .nav .dropdown-content a:hover {background-color: #ddd;}
+  
+  .nav-bar .nav .dropdown:hover .dropdown-content {display: block;}
+  
+  .nav-bar .nav .dropdown:hover .dropbtn {background-color: #3e8e41;} */
+
+
+
 /* sidenav */
 
 .sidenav 
@@ -312,6 +351,11 @@ a{
     text-decoration: none;
  }
 
+ .slider .heading .button3 a:first-child
+ {
+     margin-left: 0;
+ }
+
  .slider .heading .button3 a:hover
  {
     background-color: orange;
@@ -392,7 +436,166 @@ a{
     margin-bottom: 0;
   }
 
-  
+  .about
+  {
+    background-color: #032542;
+  }
+
+  .about .color1  
+  {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: soft-light;
+    background-color: #efefef;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .about .color1 .detail
+  {
+    padding-left: 90px;
+    padding-right: 90px;
+  }
+
+  .about .color1 .detail h1 
+  {
+    color: black;
+    font-size: 40px;
+    margin-bottom: 0;
+  }
+
+  .about .color1 .detail h1 span
+  {
+      color: orange;
+  }
+
+  .about .color1 .detail p
+  {
+    font-size: 17px;
+    margin-bottom: 0;
+    padding-top: 35px;
+    color: gray;
+  }
+
+  .about .project
+  {
+    margin-top: 50px;
+  }
+
+  .about .project h5
+  {
+    font-size: 30px;
+    margin-bottom: 0;
+    color: black;
+  }
+ 
+  .about .project h6
+  {
+    font-size: 20px;
+    margin-bottom: 0;
+    color: black;
+  }
+
+  .about .pic2
+  {
+    position: absolute;
+    top: 50%;
+    left: -30%;
+    transform: translate(0,-50%);
+  }
+
+  .about .pic2 img
+  {
+      width: 100%;
+  }
+
+
+.slick-slide:focus
+{
+    outline: none;
+}
+
+.service
+{
+    padding-top: 10%;
+    padding-bottom: 90px;
+    background-color: #fff;
+}
+
+.service .main
+{
+    text-align: center;
+}
+
+.service .main h1
+{
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+.service .main h1 span
+{
+    color: orange;
+}
+
+.service .main p
+{
+    color: gray;
+    font-size: 15px;
+    padding-top: 15px;
+    margin-bottom: 0;
+}
+
+.service .serve
+{
+    padding-top: 50px;
+}
+
+.service .serve .color2
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.service .serve .color2:hover
+{
+    background-color: tan;
+    opacity: 0.5s;
+    transition: 0.5s;
+}
+
+.service .serve h6
+{
+    font-size: 25px;
+    margin-bottom: 0;
+    color: black;
+}
+
+.service .serve i
+{
+    color: orange;
+    font-size: 30px;
+    padding-right: 15px;
+}
+
+.service .serve i:hover
+{
+    color: black;
+    opacity: 0.5s;
+    transition: 0.5s;
+}
+
+.service .serve p
+{
+    color: gray;
+    font-size: 15px;
+    margin-bottom: 0;
+    padding-top: 10px;
+    padding-left: 15%;
+}
+
+
 
 
 
@@ -417,25 +620,24 @@ a{
         display: none;
     }
 
-    /* .nav-bar .nav li a
+    .nav-bar .nav li a
     {
-        margin-left: 15px;
-    } */
+        padding-left: 2px;
+        padding-right: 5px;
+    }
+
+    
 }
 
 @media screen and (max-width: 1366)
 {
-    .nav-bar .nav li a
-    {
-        padding-right: 9px;
-        margin-left: 7px;
-    }
+    
 
 } 
 
 @media screen and (max-width: 768px)
 {
-
+        
     .nav-bar .nav
     {
         display: none;
@@ -445,10 +647,54 @@ a{
     {
         display: block;
     }
+
     
     .mobile-nav
     {
         display: block;
+    }
+
+    .digital .deling h6
+    {
+        font-size: 18px;
+    }
+
+    .digital h5 
+    {
+        font-size: 25px;
+        padding-top: 40px;
+    }
+
+    .digital h1 
+    {
+        font-size: 43px;
+    }
+
+    .about .color1 .detail h1
+    {
+        font-size: 35px;
+    }
+
+    .about .color1 .detail p
+    {
+        font-size: 14px;
+    }
+
+    .about .project h6
+    {
+        padding-top: 15px;
+        font-size: 17px;
+    }
+
+    .service .serve h6
+    {
+        font-size: 16px;
+    }
+
+    .service .serve i
+    {
+        font-size: 24px;
+        padding-right: 6px;
     }
 
 } 
@@ -510,12 +756,62 @@ a{
         height: 550px;
     }
 
-    .slider .heading .button3 a
+    /* .slider .heading .button3 a
     {
         margin-left: 35px;
+    } */
+
+    .digital h1
+    {
+        font-size: 35px;
+        padding-left: 10px;
+        padding-right: 20px;
     }
 
-  
+    .digital h5
+    {
+        font-size: 17px;
+        padding-top: 35px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .digital .deling
+    {
+        padding-top: 50px;
+    }
+    
+    .about .row, .slider .row
+    {
+        margin: 0;
+    }
+
+    .about
+    {
+        height: 1150px;
+    }
+
+    .about .pic2
+    {
+        left: -1%;
+    }
+
+    .about .pic2 img 
+    {
+        margin-top: 60%;
+    }
+
+
+    .service
+    {
+        padding-top: 30%;
+    }
+
+    .service .main p
+    {
+        font-size: 15px;
+        padding-top: 25px;
+    }
 
 } 
 

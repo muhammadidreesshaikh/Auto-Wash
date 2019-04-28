@@ -9,7 +9,8 @@ function closeNav() {
 // slider-carousel
 $('.slider-carousel').slick({
   dots: false,
-  arrows: true,
+  prevArrow: false,
+  nextArrow: false,
   infinite: false,
   speed: 300,
   slidesToShow: 1,
@@ -23,7 +24,7 @@ $('.slider-carousel').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
         infinite: true,
-        dots: true
+        dots: true,
       }
     },
     {
@@ -49,7 +50,8 @@ $('.slider-carousel').slick({
 // digital-carousel
 $('.digital-carousel').slick({
   dots: false,
-  arrows: true,
+  prevArrow: false,
+  nextArrow: false,
   infinite: false,
   speed: 300,
   slidesToShow: 3,
@@ -61,7 +63,8 @@ $('.digital-carousel').slick({
         slidesToShow: 3,
         slidesToScroll: 3,
         infinite: true,
-        dots: true
+        dots: true,
+        arrows: false
       }
     },
     {
