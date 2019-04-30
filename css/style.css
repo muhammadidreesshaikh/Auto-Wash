@@ -140,7 +140,7 @@ a{
     margin-top: 9px;
 }
 
-.nav-bar .nav ul
+.nav-bar .nav ul.parent
 {
     display: flex;
     list-style: none;
@@ -189,20 +189,12 @@ a{
 
 /* dropdown buttn */
 
-/* .dropbtn {
-    background-color: #4CAF50;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-  }
-  
   .dropdown {
     position: relative;
     display: inline-block;
   }
   
-  .nav-bar .nav .dropdown-content {
+   .dropdown-content {
     display: none;
     position: absolute;
     background-color: #f1f1f1;
@@ -211,18 +203,14 @@ a{
     z-index: 1;
   }
   
-  .nav-bar .nav .dropdown-content a {
+   .dropdown-content a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
   }
   
-  .nav-bar .nav .dropdown-content a:hover {background-color: #ddd;}
-  
-  .nav-bar .nav .dropdown:hover .dropdown-content {display: block;}
-  
-  .nav-bar .nav .dropdown:hover .dropbtn {background-color: #3e8e41;} */
+    .parent li>a:hover  .dropdown-content {display: block;}
 
 
 
@@ -313,7 +301,7 @@ a{
 {
     padding-top: 150px;
     padding-bottom: 80px;
-}
+}s
 
 .slider .heading h1
  {
@@ -556,6 +544,7 @@ a{
 {
     padding-top: 50px;
     padding-bottom: 50px;
+    cursor: pointer;
 }
 
 .service .serve .color2:hover
@@ -594,6 +583,75 @@ a{
     padding-top: 10px;
     padding-left: 15%;
 }
+
+.need
+{
+    padding-top: 6%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: soft-light;
+    background-color: #1b1b1b;
+    width: 100%;
+    height: 300px;
+}
+
+.need h1
+{
+    font-size: 28px;
+    color: white;
+    margin-bottom: 0;
+}
+
+.need p
+{
+    color: white;
+    font-size: 17px;
+    padding-top: 15px;
+}
+
+.need .button4
+{
+    margin-top: 40px;
+}
+
+.need .button4 a
+{
+    border: 1px solid orange;
+    border-radius: 1px;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+    padding: 12px 30px 12px 30px;
+    text-decoration: none;
+}
+
+.need .button4 a:hover
+{
+    color: black;
+    background-color: orange;
+    opacity: 0.5s;
+    transition: 0.5s;
+}
+
+.need .pic
+{
+    position: absolute;
+    top: 40%;
+    left: -50px;
+    transform: translate(0,-30%);
+}
+
+.need .pic img
+{
+    width: 100%;
+    margin-left: 50px;
+}
+
+
+
+
+
 
 
 
@@ -697,6 +755,11 @@ a{
         padding-right: 6px;
     }
 
+    .need .pic img
+    {
+        margin-left: 30px;
+    }
+
 } 
 
 @media screen and (max-width: 600px)
@@ -742,6 +805,7 @@ a{
         font-size: 35px;
         padding-left: 40px;
         padding-right: 10px;
+        color: white;
     }
 
     .slider .heading p 
@@ -788,7 +852,7 @@ a{
 
     .about
     {
-        height: 1150px;
+        height: 1190px;
     }
 
     .about .pic2
@@ -811,6 +875,53 @@ a{
     {
         font-size: 15px;
         padding-top: 25px;
+    }
+
+    .need
+    {
+        padding-top: 35%;
+        height: 650px;
+    }
+
+    .need h1
+    {
+        font-size: 23px;
+        padding-left: 15px;
+        padding-right: 16px;
+        text-align: center;
+    }
+
+    .need p
+    {
+        font-size: 15px;
+        padding-top: 20px;
+        padding-left: 18px;
+        padding-right: 10%;
+        text-align: center;
+    }
+
+
+    .need .button4
+    {
+        margin-top: 20%;
+        margin-left: 30%;
+    }
+
+    .need .pic
+    {
+        left: -10px;
+        transform: translate(0,40%);
+    }
+
+    .need .pic img
+    {
+        margin-left: 10px;
+    }
+
+    .project 
+    {
+        padding-top: 15%;
+        text-align: center;
     }
 
 } 
