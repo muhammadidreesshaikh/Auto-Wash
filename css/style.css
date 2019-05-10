@@ -300,8 +300,7 @@ a{
 .slider .heading
 {
     padding-top: 150px;
-    padding-bottom: 80px;
-}s
+}
 
 .slider .heading h1
  {
@@ -499,22 +498,22 @@ a{
   }
 
 
-.slick-slide:focus
-{
-    outline: none;
-}
+  .slick-slide:focus
+  {
+     outline: none;
+  }
 
-.service
-{
-    padding-top: 10%;
-    padding-bottom: 90px;
-    background-color: #fff;
-}
+  .service
+  {
+     padding-top: 10%;
+     padding-bottom: 90px;
+     background-color: #fff;
+  }
 
-.service .main
-{
-    text-align: center;
-}
+   .service .main
+  {
+      text-align: center;
+  } 
 
 .service .main h1
 {
@@ -730,13 +729,154 @@ a{
     opacity: 1;
   }
   
-.project .container .text {
+.project .container1 .text {
     background-color: orange;
     color: black;
     font-size: 14px;
     padding: 16px 32px;
     cursor: pointer;
   }
+
+  /* .meeting
+  {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: soft-light;
+    background-color: #e6e5e5;
+  }
+
+  .meeting .bio
+  {
+    background-color: white;
+    margin-top: 20%;
+    margin-bottom: 80px;
+  }
+
+  .meeting  img
+  {
+    width: 10%;
+    height: 100px;
+  }
+
+  .meeting .bio h3
+  {
+      
+  }
+
+  .meeting .bio h6
+  {
+      
+  }
+
+  .meeting .bio .seprator
+  {
+      
+  }
+
+  .meeting .bio p
+  {
+      
+  } */
+
+  .expert
+  {
+    padding-top: 20%;
+    padding-bottom: 80px;
+  }
+
+  .expert h1
+  {
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 40px;
+    color: black;
+  }
+
+  .expert h1 span
+  {
+      color: orange;
+  }
+
+  .expert p
+  {
+    padding-top: 5px;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 0;
+  }
+
+  .expert .pic6 
+  {
+    margin-top: 6%;
+  }
+
+  .expert .wrapper h6
+  {
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 17px;
+    color: black;
+    padding-top: 10px;
+  }
+
+  .expert .wrapper p
+  {
+    font-size: 13px;
+    color: gray;
+    margin-bottom: 0;
+    padding: 0;
+  }
+
+  .expert .wrapper
+  {
+    position: relative;
+    width: 80%;
+  }
+  
+  .expert .wrapper .image 
+  {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: 250px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .expert .wrapper .middle2 
+  {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .expert .wrapper:hover .image {
+    opacity: 0.3;
+  }
+  
+  .expert .wrapper:hover .middle2 {
+    opacity: 1;
+  }
+  
+  .expert .wrapper i
+  {
+    background-color: orange;
+    color: black;
+    font-size: 20px;
+    padding: 15px 20px;
+    cursor: pointer;
+  }
+
+
+
+
+
 
 
 
@@ -774,6 +914,8 @@ a{
         padding-right: 5px;
     }
 
+
+
     
 }
 
@@ -802,9 +944,24 @@ a{
         display: block;
     }
 
-    .digital .deling h6
+    .slider .inner
     {
-        font-size: 18px;
+        height: 550px;
+    }
+
+    .slider .heading .button3
+    {
+        margin-top: 40px;
+    }
+
+    .digital
+    {
+        padding-top: 20%;
+    }
+
+    .digital h1 
+    {
+        font-size: 43px;
     }
 
     .digital h5 
@@ -813,10 +970,17 @@ a{
         padding-top: 40px;
     }
 
-    .digital h1 
+    .digital .button2 i
     {
-        font-size: 43px;
+        font-size: 22px;
+        padding: 8px 10px 8px 10px;
     }
+
+    .digital .deling h6
+    {
+        font-size: 18px;
+    }
+
 
     .about .color1 .detail h1
     {
@@ -890,6 +1054,11 @@ a{
         display: block;
     }
 
+    /* .slider
+    {
+        height: 600px;
+    } */
+
     .slider .heading h1
     {
         font-size: 35px;
@@ -905,15 +1074,22 @@ a{
         font-size: 16px;
     }
 
-    .slide .inner
+    .slider .heading .button3
     {
-        height: 550px;
+        margin-top: 40px;
+        margin-left: 30px;
     }
 
-    /* .slider .heading .button3 a
+    .slide .inner
     {
-        margin-left: 35px;
-    } */
+        height: 620px;
+    }
+
+    .digital 
+    {
+        padding-top: 40%;
+    }
+
 
     .digital h1
     {
@@ -943,6 +1119,11 @@ a{
     .about
     {
         height: 1190px;
+    }
+
+    .about .color1 .detail p 
+    {
+        font-size: 14px;
     }
 
     .about .pic2
@@ -1013,6 +1194,26 @@ a{
         padding-top: 15%;
         text-align: center;
     }
+
+    .expert h1
+    {
+        font-size: 30px;
+    }
+
+    .expert p
+    {
+        padding-top: 10px;
+        font-size: 12px;
+    }
+
+    .expert .wrapper
+    {
+        height: 300px;
+        margin-left: 11%;
+        margin-top: 15%;
+    }
+
+
 
 } 
 
