@@ -873,6 +873,306 @@ a{
     cursor: pointer;
   }
 
+  .question
+  {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: soft-light;
+    background-color: #ececec;
+  }
+
+  .question .heading 
+  {
+    margin-left: 10%;
+    padding-top: 10%;
+  }
+
+  .question .heading h1
+  {
+    font-size: 40px;
+    margin-bottom: 0;
+    color: black;
+  }
+
+  .question .heading h1 span
+  {
+      color: orange;
+  }
+
+  .question .heading p
+  {
+    color: gray;
+    font-size: 15px;
+    padding-top: 15px;
+    margin-bottom: 0;
+  }
+
+  .question .body
+  {
+    margin-left: 10%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+
+  .question .body h3
+  {
+    color: black;
+    font-size: 25px;
+    margin-bottom: 0;
+  }
+
+  .question .body i
+  {
+    border: 1px solid orange;
+    border-radius: 1px;
+    padding: 10px;
+    font-size: 30px;
+    background-color: orange;
+    color: white;
+    margin-right: 9px;
+  }
+
+  .question .body i:hover
+  {
+      background-color: black;
+      color: white;
+      opacity: 0.5s;
+      transition: 0.5s;
+  }
+
+  .question .body p
+  {
+    color: gray;
+    font-size: 15px;
+    padding-left: 12%;
+    margin-bottom: 0;
+  }
+
+  .question .color-3
+  {
+    background-color: orange;
+    padding-top: 5%;
+  }
+
+  .question .color-3 .appoint h1
+  {
+    font-size: 25px;
+    margin-bottom: 0;
+  }
+
+  .question .color-3 .appoint p
+  {
+    padding-top: 10px;
+    margin-bottom: 0;
+    font-size: 15px;
+  }
+
+  .question .input
+  {
+    margin-left: 15px;
+  }
+
+  .question .input .form
+  {
+    padding-top: 20%;
+  }
+
+  .question input
+  {
+    background-color: #e89600;
+    color: #fff;
+    border-radius: 4px;
+    padding: 10px 0 10px 10px;
+    border: 1px solid orange;
+    width: 80%;
+  }
+
+  .question .msg 
+  {
+    padding-top: 10%;
+  }
+
+  .question .msg textarea
+  {
+    width: 90%;
+    background-color: #e89600;
+    color: #fff;
+    border-radius: 4px;
+    padding: 10px 0 10px 10px;
+    border: 1px solid orange;
+  }
+
+  .question input::placeholder, .question textarea::placeholder
+  {
+    color: rgb(129, 129, 129);
+  }
+  
+  .button5
+  {
+    margin-top: 10%;
+    margin-left: 20px;
+  }
+
+  .button5 a
+  {
+    border: 1px solid #02028e;
+    border-radius: 2px;
+    padding: 10px 40px 10px 40px;
+    color: white;
+    background-color: #00002f;
+  } 
+
+  .button5 a:hover
+  {
+      background-color: white;
+      color: black;
+      opacity: 0.5s;
+      transition: 0.5s;
+  }
+
+  /* .pricing
+  {
+    background-color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .pricing .wrapper
+  {
+    padding-left: 0;
+    padding-right: 0px;
+    padding-top: 5%;
+  }
+
+  .pricing .main-1 
+  {
+    text-align: center;
+  }
+
+  .pricing .main-1 h1
+  {
+    font-size: 40px;
+    margin-bottom: 0;
+  }
+
+  .pricing .main-1 h1 span
+  {
+      color: orange;
+  }
+
+  .pricing .main-1 p
+  {
+    color: gray;
+    font-size: 15px;
+    margin-bottom: 0;
+    padding-top: 5px;
+  }
+
+  .pricing .price1 
+  {
+    padding-top: 20%;
+    padding-bottom: 20%;
+    background-color: white;
+    box-shadow: 3px 1px 9px;
+  }
+
+  .pricing .price1 .icon1
+  {
+    border-radius: 50%;
+    background-color: #e8e8e8;
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: auto;
+  }
+
+  .pricing .price1 .icon1 img
+  {
+    width: 90px;
+    display: block;
+    margin: auto;
+    position: relative;
+    top: -3px;
+  }
+
+  .pricing .price1 .icon1:hover
+  {
+    background-color: orange;
+    opacity: 0.5s;
+    transition: 0.5s;
+  }
+
+  .pricing .heading1
+  {
+    padding-top: 15%;
+  }
+
+  .pricing .heading1 h4
+  {
+    text-align: center;
+    margin-bottom: 0;
+    color: orange;
+    font-size: 20px;
+  }
+
+  .pricing .heading1 h3
+  {
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 25px;
+  }
+
+  .pricing .intro1
+  {
+    text-align: center;
+    border-bottom: 2px dashed #ccc;
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .pricing .intro1 i.fas fa-times
+  {
+    color: red;
+  }
+
+  .pricing .intro1 p
+  {
+    margin: 0;
+    display: inline-block;
+    padding-left: 8px;
+    font-weight: 600;
+    font-family: raleway;
+    padding-top: 30px;
+  }
+
+  .pricing .button6
+  {
+    text-align: center;
+    margin-top: 20%;
+  }
+
+  .pricing .button6 a
+  {
+    border: 1px solid orange;
+    border-radius: 2px;
+    background-color: orange;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    font-size: 15px;
+  }
+
+  .pricing .button6 a:hover
+  {
+    background-color: #00002f;
+    color: white;
+    opacity: 0.5s;
+    transition: 0.5s;
+  } */
+
+  
+
 
 
 
@@ -1013,6 +1313,34 @@ a{
     {
         margin-left: 30px;
     }
+
+    .question input
+    {
+        padding: 5px 0px 5px 10px;
+        width: 90%;
+    }
+
+    .question .input .form
+    {
+        padding-top: 40%;
+    }
+
+    .question .msg
+    {
+        padding-top: 20%;
+    }
+
+    .question .msg textarea
+    {
+        width: 95%;
+    }
+
+    .button5
+    {
+        margin-top: 25%;
+    }
+
+    
 
 } 
 
@@ -1212,6 +1540,19 @@ a{
         margin-left: 11%;
         margin-top: 15%;
     }
+
+    .question .input .form 
+    {
+        padding-top: 5%;
+    }
+
+    .question .color-3
+    {
+        padding-top: 20%;
+        padding-bottom: 10%;
+    }
+
+    
 
 
 
