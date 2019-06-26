@@ -13,6 +13,13 @@ p, h1 ,h2 ,h3, h4, h5, h6 {
     margin: 0 !important;
 }
 
+.all-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 a{
     text-decoration: none !important;
 }
@@ -1173,59 +1180,150 @@ a{
 
   .recent
   {
+    background-color: gainsboro;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
 
+  .recent h1
+  {
+    font-size: 40px;
+    margin-bottom: 0;
+  }
+
+  .recent h1 span
+  {
+      color: orange;
+  }
+
+  .recent p
+  {
+    color: #676767;
+    font-size: 15px;
+    padding-top: 10px;
+    margin-bottom: 0;
+  }
+
+  .recent .button7 
+  {
+    padding-top: 10px;
+  }
+
+  .recent .button7 i
+  {
+    border: 1px solid orange;
+    border-radius: 2px;
+    font-size: 30px;
+    color: black;
+    background-color: orange;
+    padding: 8px 15px 8px 15px;
+    margin-right: 10px;
+  }
+
+  .recent .button7 i:hover
+  {
+    background-color: black;
+    color: orange;
+    opacity: 0.5s;
+    transition: 0.5s;
   }
 
   .recent .news
   {
-      
+    padding-top: 5%;
   }
  
-  .recent .news .pic9
+  .recent .news .pic1
   {
-      position: relative;
+    position: relative;
   }
 
-  .recent .news .pic9 img
+  .recent .news .pic1 img
   {
     width: 100%;
   }
 
-  .recent .news:hover .pic9 .colorDiv
+  .recent .news:hover .pic1 .colorDiv
   {
-    opacity: .9;
+    opacity: .7;
     width: 100%;
   }
 
   .recent .news .colorDiv{
-      width: 100%;
-      height: 100%;
-      background-color: yellow;
-      opacity: 0;
-      width: 0;
-      transition: all 0.7s ease 0s;
-      position: absolute;
-      top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: orange;
+    opacity: 0;
+    width: 0;
+    transition: all 0.7s ease 0s;
+    position: absolute;
+    top: 0;
+  }
+
+  /* .recent .button8
+  {
+
+  } */
+
+  .recent .button8 a
+  {
+    border: 1px solid white;
+    border-radius: 3px;
+    background-color: orange;
+    color: black;
+    padding: 10px 25px 10px 25px;
+    font-size: 17px;
+  }
+
+  .recent .button8 a:hover
+  {
+      background-color: #00002f;
+      color: white;
+      transition: 0.5s;
+      opacity: 0.5s;
   }
 
   .recent .news .queew
   {
-
+    background-color: white;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    text-align: center;
   }
 
   .recent .news .queew h4
   {
-      
+    font-size: 25px;
+    margin-bottom: 0;
+    color: black;
   }
 
   .recent .news .queew p
   {
-      
+    border-bottom: dashed #e6e6e6;
+    padding-bottom: 5%;
+    font-size: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5%;
   }
 
   .recent .news .queew i
   {
-      
+    padding-right: 20px;
+    color: orange;
+    font-size: 15px;
+  }
+
+  .recent .news .queew h6
+  {
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 0;
+    padding-left: 5px;
+    color: black;
+    font-family: fantasy;
+    padding-top: 50%;
   }
 
 
@@ -1397,6 +1495,11 @@ a{
     .button5
     {
         margin-top: 25%;
+    }
+
+    .pricing .intro1 p
+    {
+        font-size: 14px;
     }
 
 
@@ -1610,6 +1713,24 @@ a{
         padding-top: 20%;
         padding-bottom: 10%;
     }
+
+    .pricing
+    {
+        padding-top: 20%;
+        padding-bottom: 15%;
+    }
+
+    .pricing .main-1 p
+    {
+        padding-top: 10px;
+    }
+
+    .pricing .wrapper
+    {
+        padding-top: 10px;
+    }
+
+
 
     
 
