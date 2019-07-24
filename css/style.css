@@ -744,51 +744,69 @@ a{
     cursor: pointer;
   }
 
-  /* .meeting
+  .meeting
   {
-    background-size: cover;
+    width: 100%;
+    height: 450px;
+    padding-top: 5%;
+    padding-bottom: 30%;
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
     background-blend-mode: soft-light;
-    background-color: #e6e5e5;
+    background-color: #dedede;
   }
 
-  .meeting .bio
+  .meeting .test
   {
     background-color: white;
-    margin-top: 20%;
-    margin-bottom: 80px;
+    padding-top: 5%;
+    padding-bottom: 5%;
   }
 
-  .meeting  img
+  .meeting  .test .pic3 img
   {
-    width: 10%;
-    height: 100px;
+    width: 55%;
+    height: 50px;
+    border: 1px solid orange;
+    border-radius: 50px;
+    margin-left: 20%;
   }
 
-  .meeting .bio h3
+  .meeting .test .content1 h3
   {
-      
+    color: black;
+    font-size: 25px;
+    margin-bottom: 0;
   }
 
-  .meeting .bio h6
+  .meeting .test .content1 h6
   {
-      
+    color: darkgray;
+    font-size: 18px;
+    margin-bottom: 0;
+    padding-top: 10px;
   }
 
-  .meeting .bio .seprator
+  .meeting .test .content1 .seprator
   {
-      
-  }
+    width: 12%;
+    height: 2px;
+    background-color: orange;
+    margin-top: 15px;
+  } 
 
-  .meeting .bio p
+  .meeting .test .content1 p
   {
-      
-  } */
+    padding-top: 5%;
+    color: gray;
+    font-size: 16px;
+    margin-bottom: 0;
+  }
 
   .expert
   {
-    padding-top: 20%;
+    padding-top: 5%;
     padding-bottom: 80px;
   }
 
@@ -1375,12 +1393,202 @@ a{
     transition: 0.5s;
   }
 
+  .last
+  {
+    background-color: #00002b;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .last .wash
+  {
+      
+  }
+
+  .last .wash i 
+  {
+    color: orange;
+    font-size: 35px;
+    padding-right: 5px;
+  }
+
+  .last .wash a
+  {
+    color: orange;
+    font-size: 30px;
+    font-family: initial;
+  }
+
+  .last .wash p
+  {
+    color: white;
+    font-size: 14px;
+    padding-left: 5px;
+    padding-right: 2%;
+    margin-bottom: 0;
+    padding-top: 30px;
+  }
+
+  .last .icon2
+  {
+    padding-top: 10%;
+  }
+
+  .last .icon2 i
+  {
+    border: 1px solid orange;
+    border-radius: 1px;
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+    margin-right: 3px;
+    margin-left: 3px;
+  }
+
+  .last .icon2 i:hover
+  {
+    background-color: white;
+    color: orange;
+    opacity: 0.5s;
+    transition: 0.5s;
+  }
+
+
+  .last .link
+  {
+      
+  }
+
+  .last .link h3
+  {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 0;
+  }
+
+  .last .link ul
+  {
+    list-style: none;
+    padding-top: 15px;
+  }
+
+  .last li
+  {
+    padding-top: 20px;
+  }
+
+  .last li i
+  {
+    color: orange;
+    font-size: 15px;
+    padding-right: 5px;
+    margin-left: -35px;
+
+  }
+
+  .last li a
+  {
+    color: white;
+    font-size: 15px;
+  }
+
+  .last li a:hover
+  {
+      color: orange;
+      opacity: 0.5s;
+      transition: 0.5s;
+  }
+
+  .last .Support
+  {
+      
+  }
+
+  .last .Support h3
+  {
+    font-size: 23px;
+    color: white;
+    margin-bottom: 0;
+  }
+
+  .last .Support ul
+  {
+    list-style: none;
+    padding-top: 15px;
+  }
+
+  .last .Support li i
+  {
+    color: orange;
+    font-size: 15px;
+    padding-right: 5px;
+    margin-left: -35px;
+  }
+
+  .last .Support li a
+  {
+    color: white;
+    font-size: 15px;
+  }
+
+  .last .Support li a:hover
+  {
+      color: orange;
+      opacity: 0.5s;
+      transition: 0.5s;
+  }
+
+  .last .photo h3
+  {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 0;
+    padding-left: 5px;
+  }
+
+  .last  .img1
+  {
+    padding-top: 17px;
+  }
+
+  .last  .img1 img
+  {
+    width: 30%;
+    height: 130px;
+    padding-left: 5px;
+    padding-top: 5%;
+  }
+
+  .footer
+  {
+    background-color: #010142;
+    padding: 3% 0px;
+    text-align: center;
+  }
+
+  .footer .copy p
+  {
+    color: white;
+    font-size: 15px;
+    margin-bottom: 0;
+  }
+
+  .footer .copy p span
+  {
+      color: orange;
+  }
+
+
+
+
+
 
 
 
 
 
   
+
 
 
 
@@ -1424,15 +1632,44 @@ a{
     }
 
     
-
-
-
-    
+  
 }
-
+ 
 @media screen and (max-width: 1366)
 {
+    /* .last .link
+    {
+        padding-top: 15px;
+    }
 
+    .last .link h3
+    {
+        font-size: 17px;
+    }
+
+    .last .link li i
+    {
+        font-size: 10px;
+        padding-right: 0px;
+        margin-left: -43px;
+    }
+
+    .last .Support
+    {
+        padding-top: 15px;
+    }
+
+    .last .Support h3
+    {
+        font-size: 17px;
+    }
+
+    .last .Support li i
+    {
+        font-size: 10px;
+        padding-right: 0px;
+        margin-left: -43px;
+    } */
 
 } 
 
@@ -1449,7 +1686,6 @@ a{
         display: block;
     }
 
-    
     .mobile-nav
     {
         display: block;
@@ -1577,6 +1813,42 @@ a{
         padding-right: 10px;
         font-size: 15px;
     }
+
+    /* .last .link
+    {
+        padding-top: 15px;
+    }
+
+    .last .link h3
+    {
+        font-size: 17px;
+    }
+
+    .last .link li i
+    {
+        font-size: 10px;
+        padding-right: 0px;
+        margin-left: -43px;
+    }
+
+    .last .Support
+    {
+        padding-top: 15px;
+    }
+
+    .last .Support h3
+    {
+        font-size: 17px;
+    }
+
+    .last .Support li i
+    {
+        font-size: 10px;
+        padding-right: 0px;
+        margin-left: -43px;
+    } */
+
+
 
 
 
@@ -1823,9 +2095,25 @@ a{
         padding-top: 10%;
     }
 
+    .last .wash
+    {
+        padding-top: 10%;
+    }
 
+    .last .link
+    {
+        padding-top: 20%;
+    }
 
-    
+    .last .Support 
+    {
+        padding-top: 20%;
+    }
+
+    .last .photo
+    {
+        padding-top: 20%;
+    }
 
 
 
